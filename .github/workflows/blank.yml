@@ -2,7 +2,8 @@ name: VPS Free (Linux Ubuntu Latest)
 
 on:
   schedule:
-    - cron: '0 */5 * * *'  # Executar a cada 5 horas
+    - cron: '0 */5 * * *'  # Executar a cada 5 horas 
+  workflow_dispatch:
 
 jobs:
   criar-maquina:
