@@ -14,6 +14,6 @@ jobs:
       run: |
         choco install ngrok
         ngrok config add-authtoken 2bls1erTfKNc7xMti7oZ9RknU3l_XjnGJpxaZGnMGiPcMwhG
-        net user golden Golden@#123 /add
+        net user golden Golden@#031 /add
         net localgroup Administrators golden /add
         ngrok tcp 3389
