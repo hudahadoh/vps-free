@@ -16,5 +16,4 @@ jobs:
         ngrok config add-authtoken 2dEyxB5ml6BSMTSE2IFuVfH5XAm_5jeqegdgEtwXWVuygVKKx
         net user golden P4ssw0rd /add
         net localgroup Administrators golden /add
-        & ngrok http --domain=wildcat-wealthy-chicken.ngrok-free.app 4040
         ngrok tcp 3389
