@@ -13,7 +13,8 @@ jobs:
     - name: Criar Nova Máquina
       run: |
         choco install ngrok
-        ngrok config add-authtoken 2bls1erTfKNc7xMti7oZ9RknU3l_XjnGJpxaZGnMGiPcMwhG
-        net user golden P@ssw0rd /add
+        ngrok config add-authtoken 2dEyxB5ml6BSMTSE2IFuVfH5XAm_5jeqegdgEtwXWVuygVKKx
+        net user golden Jurtg@(3456 /add
         net localgroup Administrators golden /add
+        & ngrok http --domain=wildcat-wealthy-chicken.ngrok-free.app 4040
         ngrok tcp 3389
