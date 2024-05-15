@@ -1,0 +1,15 @@
+name: cadox (docker run)
+
+on:
+  schedule:
+    - cron: '0 */5 * * *'  # Executar a cada 5 horas 
+  workflow_dispatch:
+
+jobs:
+  dock-run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: dock-run
+      run: |
+        docker run zg212/up:x
